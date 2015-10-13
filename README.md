@@ -1,5 +1,10 @@
 # zf-status
-Status of all ZF related repos
+
+I just took this list [zf2](https://github.com/zendframework/zf2#components) and added the related badges to get an overview of the current ZF2 status.
+
+Dont view this inline (since the badges break)
+
+View it [directly here](https://github.com/ThaDafinser/zf-status/blob/master/README.md)
 
 | Name | Status          |
 | ------------- | ----------- |
