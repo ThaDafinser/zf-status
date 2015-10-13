@@ -35,5 +35,22 @@ Status of all ZF related repos
 | [zend-modulemanager](https://github.com/zendframework/zend-modulemanager) |  |
 | [zend-mvc](https://github.com/zendframework/zend-mvc) |  |
 | [zend-navigation](https://github.com/zendframework/zend-navigation) |  |
-|  |  |
-|  |  |
+| [zend-paginator](https://github.com/zendframework/zend-paginator) |  |
+| [zend-permissions-acl](https://github.com/zendframework/zend-permissions-acl) |  |
+| [zend-permissions-rbac](https://github.com/zendframework/zend-permissions-rbac) |  |
+| [zend-progressbar](https://github.com/zendframework/zend-progressbar) |  |
+| [zend-serializer](https://github.com/zendframework/zend-serializer) |  |
+| [zend-server](https://github.com/zendframework/zend-server) |  |
+| [zend-servicemanager](https://github.com/zendframework/zend-servicemanager) |  |
+| [zend-session](https://github.com/zendframework/zend-session) |  |
+| [zend-soap](https://github.com/zendframework/zend-soap) |  |
+| [zend-stdlib](https://github.com/zendframework/zend-stdlib) |  |
+| [zend-tag](https://github.com/zendframework/zend-tag) |  |
+| [zend-test](https://github.com/zendframework/zend-test) |  |
+| [zend-text](https://github.com/zendframework/zend-text) |  |
+| [zend-uri](https://github.com/zendframework/zend-uri) |  |
+| [zend-validator](https://github.com/zendframework/zend-validator) |  |
+| [zend-version](https://github.com/zendframework/zend-version) |  |
+| [zend-view](https://github.com/zendframework/zend-view) |  |
+| [zend-xmlrpc](https://github.com/zendframework/zend-xmlrpc) |  |
+| [ZendXml](https://github.com/zendframework/ZendXml) |  |
