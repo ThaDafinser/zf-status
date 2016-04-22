@@ -11,7 +11,7 @@ foreach ($repos as $repo) {
     
     $cols = [];
     // repo name + url
-    $cols[] = '[' . $repo->name . '](' . $repo->url . ')';
+    $cols[] = '[' . $repo->name . '](' . $repo->html_url . ')';
     
     // latest stable version
     $cols[] = '[![Latest Stable Version](https://poser.pugx.org/' . $repo->full_name . '/v/stable)](https://packagist.org/packages/' . $repo->full_name . ')';
