@@ -35,6 +35,12 @@ foreach ($repos as $repo) {
     // coverage
     $cols[] = '[![Coverage Status](https://coveralls.io/repos/' . $repo->full_name . '/badge.svg?branch=develop)](https://coveralls.io/r/' . $repo->full_name . '?branch=develop) ';
     
+    /*
+     * general
+     */
+    $cols[] = $repo->updated_at;
+    $cols[] = $repo->created_at;
+    
     $rowString = implode(' | ', $cols);
     
     if (strpos($repo->name, 'zend') === 0) {
@@ -51,8 +57,8 @@ ksort($rowsExtra);
 /*
  * Build the table
  */
-$tableHeader = 'Name | Stable version | Unstable version | Master status | Master coverage | Develop status | Develop coverage' . "\n";
-$tableHeader .= '--- | --- | --- | --- | --- | --- | ---' . "\n";
+$tableHeader = 'Name | Stable version | Unstable version | Master status | Master coverage | Develop status | Develop coverage | Last update | Created' . "\n";
+$tableHeader .= '--- | --- | --- | --- | --- | --- | --- | --- | ---' . "\n";
 
 $txt = ' # Zend Framework repositories status page' . "\n\n";
 
