@@ -38,7 +38,6 @@ foreach ($repos as $repo) {
     /*
      * general
      */
-    $cols[] = $repo->updated_at;
     $cols[] = $repo->created_at;
     
     $rowString = implode(' | ', $cols);
@@ -57,8 +56,8 @@ ksort($rowsExtra);
 /*
  * Build the table
  */
-$tableHeader = 'Name | Stable version | Unstable version | Master status | Master coverage | Develop status | Develop coverage | Last update | Created' . "\n";
-$tableHeader .= '--- | --- | --- | --- | --- | --- | --- | --- | ---' . "\n";
+$tableHeader = 'Name | Stable version | Unstable version | Master status | Master coverage | Develop status | Develop coverage | Created' . "\n";
+$tableHeader .= '--- | --- | --- | --- | --- | --- | --- | ---' . "\n";
 
 $txt = ' # Zend Framework repositories status page' . "\n\n";
 
